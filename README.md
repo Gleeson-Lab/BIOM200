@@ -5,7 +5,9 @@ Originaly created by Kyle Gaulton, Assistant Professor, Department of Pediatrics
 
 kgaulton@ucsd.edu
 
-Fall Quarter 2019
+
+
+Edited by Arzoo Patel for Joe Gleeson, Professor, Department of Neurosciences
 
 <br/><br/>
 
