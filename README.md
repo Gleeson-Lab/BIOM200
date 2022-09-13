@@ -61,8 +61,8 @@ Run VCFanno to annotate exome with ClinVar, and ExAC and 1000 Genomes allele fre
   ```
   vcfanno BIOM200/biom_config.toml BIOM200/data/hu82436A.vcf.gz > hu82436A.annot.vcf
   ```
-  
-This will add several columns to the INFO field of the VCF in the resulting annotated file 'hu82436A.annot.vcf', including: clinical_significance   (benign, pathogenic, etc.), clinical_class (type of variant - snp, deletion, etc.), exac_allele_freq (allele frequency in ExAC), tgp_allele_freq (allele frequency in 1000 Genomes)
+
+This will add several columns to the INFO field of the VCF in the resulting annotated file 'hu82436A.annot.vcf', including: clinical_significance (benign, pathogenic, etc.), clinical_class (type of variant - snp, deletion, etc.), exac_allele_freq (allele frequency in ExAC), tgp_allele_freq (allele frequency in 1000 Genomes)
 
 From this annotated VCF, extract all variants with `clinical_significance=Pathogenic`, and determine whether or not they are also present in ExAC or 1000 Genomes and what their allele frequencies are (if there is no 'exac_allele_freq' or 'tgp_allele_freq' info tag then it isn't in these databases)
 
