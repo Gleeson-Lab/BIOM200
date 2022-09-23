@@ -15,7 +15,7 @@ Edited by Arzoo Patel for Joe Gleeson, Professor, Department of Neurosciences
 
 SSH into your account on TSCC (ssh username@login-tscc.sdsc.edu)
 
-Note: some of you might not have a TSCC accout or might not be able to login to it. If you use Linux or Mac just open your terminal and continue to cloning the repository. If you have Windows you'll need a program to run bash shell on, such as [WSL](https://ubuntu.com/wsl)
+Note: some of you might not have a TSCC account or might not be able to login to it. If you use Linux or Mac just open your terminal and continue to cloning the repository. If you have Windows you'll need a program to run bash shell on, such as [WSL](https://ubuntu.com/wsl)
 
 <br/><br/>
 
