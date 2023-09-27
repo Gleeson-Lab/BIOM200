@@ -1,12 +1,6 @@
 ## BIOM200 Human genetics and genomics module
 <br/>
 
-Originaly created by Kyle Gaulton, Assistant Professor, Department of Pediatrics
-
-kgaulton@ucsd.edu
-
-
-
 Edited by Arzoo Patel for Joe Gleeson, Professor, Department of Neurosciences
 
 <br/><br/>
