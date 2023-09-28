@@ -34,25 +34,15 @@ And you will annotate this exome using data on pathogenic variants from ClinVar:
 
 Download VCFanno in order to functionally annotate variants
   
-  Either download executable directly: 
-  
-  ```
-  wget https://github.com/brentp/vcfanno/releases/download/v0.3.2/vcfanno_linux64 -O vcfanno
-  ```
-    
-  Make sure that you have permissions to run the program:
-  
-  ```
-  chmod +x vcfanno
-  ```
-  
-  Or install with conda:
+  Install with conda:
  
   ```
   conda install -c bioconda vcfanno
   ```
   
-  
+  Conda installation (https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+  Bioconda installation (https://bioconda.github.io/)
 
 Run VCFanno to annotate exome with ClinVar, and ExAC and 1000 Genomes allele frequencies, using config file 'biom_config.toml' (there might be several 'warnings' but should still produce the correct output).  Make sure you are in your home directory when running this command
 
