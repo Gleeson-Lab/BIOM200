@@ -7,9 +7,7 @@ Edited by Arzoo Patel for Joe Gleeson, Professor, Department of Neurosciences
 
 ##  Getting started
 
-SSH into your account on TSCC (ssh username@login-tscc.sdsc.edu)
-
-Note: some of you might not have a TSCC account or might not be able to login to it. If you use Linux or Mac just open your terminal and continue to cloning the repository. If you have Windows you'll need a program to run bash shell on, such as [WSL](https://ubuntu.com/wsl)
+If you use Linux or Mac just open your terminal and continue to cloning the repository. If you have Windows you'll need a program to run bash shell on, such as [WSL](https://ubuntu.com/wsl)
 
 <br/><br/>
 
@@ -34,25 +32,15 @@ And you will annotate this exome using data on pathogenic variants from ClinVar:
 
 Download VCFanno in order to functionally annotate variants
   
-  Either download executable directly: 
-  
-  ```
-  wget https://github.com/brentp/vcfanno/releases/download/v0.3.2/vcfanno_linux64 -O vcfanno
-  ```
-    
-  Make sure that you have permissions to run the program:
-  
-  ```
-  chmod +x vcfanno
-  ```
-  
-  Or install with conda:
+  Install with conda:
  
   ```
   conda install -c bioconda vcfanno
   ```
   
-  
+  Conda installation (https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+  Bioconda installation (https://bioconda.github.io/)
 
 Run VCFanno to annotate exome with ClinVar, and ExAC and 1000 Genomes allele frequencies, using config file 'biom_config.toml' (there might be several 'warnings' but should still produce the correct output).  Make sure you are in your home directory when running this command
 
@@ -77,4 +65,4 @@ From this annotated VCF, extract all variants with `clinical_significance=Pathog
 
 `ls` - list contents of a directory
 
-
+If you have any questions, please email kllu@ucsd.edu
