@@ -7,9 +7,7 @@ Edited by Arzoo Patel for Joe Gleeson, Professor, Department of Neurosciences
 
 ##  Getting started
 
-SSH into your account on TSCC (ssh username@login-tscc.sdsc.edu)
-
-Note: some of you might not have a TSCC account or might not be able to login to it. If you use Linux or Mac just open your terminal and continue to cloning the repository. If you have Windows you'll need a program to run bash shell on, such as [WSL](https://ubuntu.com/wsl)
+If you use Linux or Mac just open your terminal and continue to cloning the repository. If you have Windows you'll need a program to run bash shell on, such as [WSL](https://ubuntu.com/wsl)
 
 <br/><br/>
 
@@ -67,4 +65,4 @@ From this annotated VCF, extract all variants with `clinical_significance=Pathog
 
 `ls` - list contents of a directory
 
-
+If you have any questions, please email kllu@ucsd.edu
